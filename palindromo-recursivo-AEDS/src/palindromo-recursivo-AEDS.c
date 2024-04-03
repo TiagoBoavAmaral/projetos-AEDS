@@ -13,6 +13,8 @@ int main(void) {
 	scanf("%s", palavra);
 
 	int tamanho = strlen(palavra);
+	
+	printf("%d letras\n", tamanho);
 
 	//Verificar se e um palindromo
 	if(isPalindrome(palavra, 0, tamanho - 1)) {
